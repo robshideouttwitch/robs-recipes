@@ -1,6 +1,8 @@
 
 body {
     background: url(https://github.com/robshideouttwitch/robs-recipes/blob/main/images/chefbg_AME/Chefgif.gif?raw=true);
+    height: auto;
+    width: 1440;
 }
 
 h1{
@@ -58,7 +60,7 @@ ul.no-bullets {
   }
 
 a {
-    color: 	#1b9cdc ;
+    color: 	#caeafa ;
     text-shadow:
     5px 5px 0px #eb452b; 
 }  
