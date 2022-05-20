@@ -1,8 +1,90 @@
 
 body {
-   background: url(Chefgif.gif);
+    background: url(https://github.com/robshideouttwitch/robs-recipes/blob/main/images/chefbg_AME/Chefgif.gif?raw=true);
 }
 
-h1 {
-    font-family: 'Times New Roman', Times, serif;
+h1{
+    font-size: 15rem;
+  text-align: center;
+  line-height: 10vh;
+  color: #fcedd8;
+  background: transparent;
+     font-family: 'Niconne', cursive;
+  font-weight: 700;
+text-shadow: 5px 5px 0px #eb452b, 
+            10px 10px 0px #efa032, 
+            15px 15px 0px #46b59b, 
+            20px 20px 0px #017e7f, 
+            25px 25px 0px #052939, 
+            30px 30px 0px #c11a2b, 
+            35px 35px 0px #c11a2b, 
+            40px 40px 0px #c11a2b, 
+            45px 45px 0px #c11a2b;
 }
+
+h2{
+    font-size: 7rem;
+  text-align: center;
+  line-height: 3vh;
+  color: #fcedd8;
+  background: #d52e3f00;
+     font-family: 'Niconne', cursive;
+  font-weight: 700;
+text-shadow: 5px 5px 0px #eb452b, 
+            10px 10px 0px #efa032, 
+            15px 15px 0px #46b59b, 
+            20px 20px 0px #017e7f, 
+            25px 25px 0px #052939, 
+            30px 30px 0px #c11a2b, 
+            35px 35px 0px #c11a2b, 
+            40px 40px 0px #c11a2b, 
+            45px 45px 0px #c11a2b;
+}
+
+ul.no-bullets {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    line-height: 5vh;
+    color: 	#ffffff ;
+    text-shadow:
+    5px 5px 0px #eb452b; 
+}
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+a {
+    color: 	#1b9cdc ;
+    text-shadow:
+    5px 5px 0px #eb452b; 
+}  
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+li.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+d.AA {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    line-height: 40vh;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+a.CC {
+    color: #fcedd8;
+    text-shadow: none;
+}
+
