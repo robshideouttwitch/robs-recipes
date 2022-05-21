@@ -3,7 +3,9 @@
 body {
     background: url(https://github.com/robshideouttwitch/robs-recipes/blob/main/images/chefbg_AME/Chefgif.gif?raw=true);
     height: auto;
-    width: 1440;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
@@ -80,7 +82,7 @@ li.zoom:hover {
 .license {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: aliceblue;
-    line-height: 40vh;
+    line-height: 10vh;
     font-size: 20px;
     text-align: center;
     display: block;
