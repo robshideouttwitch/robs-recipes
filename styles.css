@@ -1,3 +1,8 @@
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
 
 body {
     background: url(https://github.com/robshideouttwitch/robs-recipes/blob/main/images/chefbg_AME/Chefgif.gif?raw=true);
@@ -47,7 +52,7 @@ ul.no-bullets {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
     text-align: center;
-    line-height: 5vh;
+    line-height: ´7vh;
     color: 	#ffffff ;
     text-shadow:
     5px 5px 0px #eb452b; 
@@ -76,16 +81,17 @@ li.zoom:hover {
     transform: scale(1.5); 
 }
 
-d.AA {
+.license {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: aliceblue;
     line-height: 40vh;
     font-size: 20px;
     text-align: center;
+    display: block;
     
 }
 
-a.CC {
+.CC {
     color: #fcedd8;
     text-shadow: none;
 }
