@@ -280,3 +280,18 @@ img.zoom:hover {
   transition: 0.7s;
 }
 
+#rcorners {
+    border-radius: 15px 50px 30px;
+    background: #0064ff7a;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-clip: content-box;
+    border-style: dashed solid;
+    border-color: #0064ff7a;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
