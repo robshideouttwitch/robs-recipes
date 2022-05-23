@@ -1,7 +1,7 @@
 
 	
     #bg {
-        position: fixed;
+        position: absolute;
         left: 0;
         top: 0;
         right: 0;
@@ -89,7 +89,7 @@ ul.no-bullets {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
     text-align: center;
-    line-height: ´7vh;
+    line-height: 7vh;
     color: 	#ffffff ;
     text-shadow:
     5px 5px 0px #eb452b; 
@@ -131,5 +131,152 @@ li.zoom:hover {
 .CC {
     color: #fcedd8;
     text-shadow: none;
+}
+
+#title {
+    font-size: 7rem;
+    text-align: center;
+    line-height: 10vh;
+    color: #fcedd8;
+    background: transparent;
+       font-family: 'Niconne', cursive;
+    font-weight: 700;
+  text-shadow: 5px 5px 0px #eb452b, 
+              10px 10px 0px #efa032, 
+              15px 15px 0px #46b59b, 
+              20px 20px 0px #017e7f, 
+              25px 25px 0px #052939, 
+              30px 30px 0px #c11a2b, 
+              35px 35px 0px #c11a2b, 
+              40px 40px 0px #c11a2b, 
+              45px 45px 0px #c11a2b;
+}
+
+img {
+    border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42%;
+}
+
+img.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.7); 
+  }
+
+  #subtitle {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3vh;
+    color: #fcedd8;
+    background: #d52e3f00;
+       font-family: 'Niconne', cursive;
+    font-weight: 700;
+  text-shadow: 5px 5px 0px #eb452b, 
+              10px 10px 0px #efa032, 
+              15px 15px 0px #46b59b, 
+              20px 20px 0px #017e7f, 
+              25px 25px 0px #052939,
+              30px 30px 0px #c11a2b;  
+   
+
+  }
+
+  #bulletpoint {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3vh;
+    color: #fcedd8;
+    background: #d52e3f00;
+       font-family: 'Niconne', cursive;
+    font-weight: 700;
+  text-shadow: 5px 5px 0px #eb452b, 
+              10px 10px 0px #efa032, 
+              15px 15px 0px #46b59b, 
+              20px 20px 0px #017e7f, 
+              25px 25px 0px #052939; 
+          
+  }
+
+  p {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+      color: aliceblue;
+      font-size: 210%;
+      margin-top: 5%;
+  }
+
+  #ing {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+      color: aliceblue;
+      font-size: 150%;
+      margin-top: 2%;
+  }
+
+  #ing {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+  .button1 {
+      position: absolute;
+      left: 0%;
+      bottom: 94%;
+      background-color: #0a0a23;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 15px;
+      min-height: 30px;
+      min-width: 120px;
+      display: flex;
+      
+   }
+
+   .button1:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+}
+
+.button2 {
+    position: absolute;
+    bottom: 94%;
+    right: 48%;
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 30px;
+    min-width: 120px;
+    display: block;
+ }
+
+ .button2:hover {
+  background-color:#002ead;
+  transition: 0.7s;
+}
+
+.button3 {
+    position: absolute;
+    right: 0%;
+    bottom: 94%;
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 30px;
+    min-width: 120px;
+    display: block;
+ }
+
+ .button3:hover {
+  background-color:#002ead;
+  transition: 0.7s;
 }
 
