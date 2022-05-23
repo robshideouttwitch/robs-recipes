@@ -224,7 +224,7 @@ img.zoom:hover {
 
   .button1 {
       position: absolute;
-      left: 0%;
+      left: 58%;
       bottom: 94%;
       background-color: #0a0a23;
       color: #fff;
@@ -245,7 +245,7 @@ img.zoom:hover {
 .button2 {
     position: absolute;
     bottom: 94%;
-    right: 48%;
+    right: 29%;
     background-color: #0a0a23;
     color: #fff;
     border: none;
@@ -263,7 +263,7 @@ img.zoom:hover {
 
 .button3 {
     position: absolute;
-    right: 0%;
+    left: 29%;
     bottom: 94%;
     background-color: #0a0a23;
     color: #fff;
