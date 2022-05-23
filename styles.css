@@ -1,12 +1,51 @@
 
+	
+    #bg {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        background-image: url("./images/chef.png");
+        background-size: 126px 126px;
+        height: 100vh;
+        width: 100vw;
+        animation: 90s scroll infinite linear;
+        background-color: #000000;
+        
+    }
 
-body {
-    background: url(https://github.com/robshideouttwitch/robs-recipes/blob/main/images/chefbg_AME/Chefgif.gif?raw=true);
-    height: auto;
-    width: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    @-webkit-keyframes scroll {
+        100% {
+            background-position: -3000px 0px;
+        }
+    }
+
+    @-moz-keyframes scroll {
+        100% {
+            background-position: -3000px 0px;
+        }
+    }
+
+    @-o-keyframes scroll {
+        100% {
+            background-position: -3000px 0px;
+        }
+    }
+
+    @-ms-keyframes scroll {
+        100% {
+            background-position: -3000px 0px;
+        }
+    }
+
+    @keyframes scroll {
+        100% {
+            background-position: -3000px 0px;
+        }
+    }
+
 
 h1{
     font-size: 15rem;
